@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<EditText
+    android:id="@+id/topTextInput"
+    android:layout_width="wrap_content"
+    android:hint="Top Text"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_marginTop="15dp"
+    android:width="300dp"
+    android:height="30dp"
+    android:layout_height="wrap_content"
+    android:inputType="none"
+    android:background="#ffabff73" />
+
+<EditText
+    android:id="@+id/bottomTextInput"
+    android:hint="Bottom Text"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/topTextInput"
+    android:layout_marginTop="30dp"
+    android:height="30dp"
+    android:width="300dp"
+    android:layout_height="wrap_content"
+    android:inputType="none"
+    android:background="#ffff857b" />
+<Button
+    android:id="@+id/button_Input"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/bottomTextInput"
+    android:text="Generate meme!"
+    android:width="200dp"
+    android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
